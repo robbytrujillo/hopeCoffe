@@ -203,6 +203,13 @@ body {
   line-height: 1.6;
 }
 
+.menu .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  justify-content: center;
+}
+
 /* Media Queries *1/
 
 /* Laptop */
