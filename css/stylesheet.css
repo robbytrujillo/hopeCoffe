@@ -341,14 +341,14 @@ footer .credit a {
   .navbar .navbar-nav {
     position: absolute;
     top: 100%;
-    right: -100%; //keluar dari layar
+    right: -100; //keluar dari layar
     background-color: #fff;
     width: 30rem; //lebar
     height: 100vh;
     transition: 0.3s;
   }
 
-  .navbar .navbar-nav.active {
+  .navbar .navbar-nav .active {
     right: 0;
   }
 
